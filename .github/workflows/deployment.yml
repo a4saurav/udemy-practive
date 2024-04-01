@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   app_building:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: get code
           uses: actions/checkout@v3
         - name: npm dependencies
